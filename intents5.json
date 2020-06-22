@@ -1,0 +1,43 @@
+{"intents":[
+	{"tag":"greeting",
+	 "patterns":["hi","How are you","Is anyone there?","hello","Good day","Good morning","Good Evening"],
+	 "responses":["Hello ,How can I help you","Hi there","Hello","Hello sir","welcome How can i help you?"],"context_set":""
+	},
+	{"tag":"goodbye",
+	 "patterns":["Bye","see you later","Good bye","Thank you"],
+	 "responses":["see you later,thanks for visiting","Have a nice day","Bye! come back soon again."]
+	},
+	{"tag":"thanks",
+	 "patterns":["Thanks","Thank you","That's helpful"],
+	 "responses":["Happy to help!","Any time!","My pleasure"]
+	},
+	{"tag":"hours",
+	 "patterns":["What hours are you open?","what are your hours?","when are you open?"],
+	 "responses":["we are open every day 9am-9pm","Our hours are 9am-9pm every day"]
+	},
+	{"tag": "payments",
+    	 "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+  	},
+  	{"tag": "opentoday",
+    	 "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+    	 "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+  	},
+  	{"tag": "customercare",
+         "patterns": ["i want to talk to customercare person","can I talk with customercare ","Give me you company mobile number"],
+    	 "responses": [" please call to this number 1-800-9007 ", "You can contact this number 1-800-9000"]
+    	},
+	{"tag":"Details",
+	 "patterns":["I want to know about your company details","Can you give me your company details","send me details about your comapany"],
+	 "responses":["you can visit our official website","visit our website for complete details","visit website for details"]
+	},
+	{"tag":"help ",
+	 "patterns":["How can you help","Can you help me","how will you help me "],
+	 "responses":["I can guide you ","I will answer your questions","I may help to answer your quaries"]
+	}
+]
+}
+
+
+	
+	
